@@ -1,0 +1,141 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title> register Form</title>
+	<link href="css/style.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" href="student_main.css">
+	
+</head>
+
+<body>
+
+	<nav id="nav">
+		<ul>
+			<li><img src="\Web Project\uwu.jpg" width="15%" heigth="25%"></li>
+			<li class="current"><a href="\Web Project\medicle page\medical center page.html">Home</a></li>
+			<li>
+				<a href="\Web Project\about us\about us.html">ABOUT US</a>
+				
+			</li>
+			<li><a href="\Web Project\services\services.html">SERVICES</a></li>
+			<li><a href="\Web Project\staff\staf.html">STAFF</a></li>
+			
+
+			<li><a href="\Web Project\doctor and opd use to rejister\opd and doctor.html">REGISTER</a></li>
+			<li><a href="\Web Project\loging page extarct\logging page.html">LOGGING</a></li>
+		</ul>
+	</nav>
+	<br><br><br>
+	<U>
+		
+	</U>
+	<!-- Body of Form starts -->
+
+
+	<div class="container">
+
+
+		<!--First name-->
+
+		<div class="box radio">
+
+			<div class="box">
+				<form action="student_rejister.php" method="post" enctype="multipart/form-data">
+
+					<label for="firstName" class="fl fontLabel"> enrolment_num </label>
+					<div class="new iconBox">
+						<i class="fa fa-user" aria-hidden="true"></i>
+					</div>
+					<div class="fr">
+						<input type="text" name="enrolment_number" placeholder="enrolment_number Name" class="textBox" autofocus="on" required>
+					</div>
+					<div class="clr"></div>
+			</div>
+			<!--First name-->
+
+
+			<!--Second name-->
+			<div class="box">
+				<label for="secondName" class="fl fontLabel"> name_with_initial </label>
+				<div class="fl iconBox"><i class="fa fa-user" aria-hidden="true"></i></div>
+				<div class="fr">
+					<input type="text" required name="name_with_initial" placeholder="Last Name" class="textBox">
+				</div>
+				<div class="clr"></div>
+			</div>
+			<!--Second name-->
+			<div class="box">
+				<label for="secondName" class="fl fontLabel"> name_in_full </label>
+				<div class="fl iconBox"><i class="fa fa-user" aria-hidden="true"></i></div>
+				<div class="fr">
+					<input type="text" required name="name_in_full" placeholder="ID number" class="textBox">
+				</div>
+				<div class="clr"></div>
+			</div>
+
+			<!---Phone No.------>
+			<div class="box">
+				<label for="phone" class="fl fontLabel"> PhoneNumber </label>
+				<div class="fl iconBox"><i class="fa fa-phone-square" aria-hidden="true"></i></div>
+				<div class="fr">
+					<input type="text" required name="phone_number" maxlength="10" placeholder="Phone No." class="textBox" required>
+				</div>
+				<div class="clr"></div>
+			</div>
+			
+			<div class="box">
+				<label for="email" class="fl fontLabel"> email_address </label>
+				<div class="fl iconBox"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+				<div class="fr">
+					<input type="email" required name="email_address" placeholder="Email Id" class="textBox" required>
+				</div>
+				<div class="clr"></div>
+			</div>
+			
+
+			
+			<div class="box">
+				<label for="password" class="fl fontLabel"> birth_day </label>
+				<div class="fl iconBox"><i class="fa fa-key" aria-hidden="true"></i></div>
+				<div class="fr">
+					<input type="text" required name="birth_day" placeholder="birth day" class="textBox" required>
+				</div>
+				<div class="clr"></div>
+			</div>
+			
+
+			<div class="box">
+				<label for="password" class="fl fontLabel">home_town</label>
+				<div class="fl iconBox"><i class="fa fa-key" aria-hidden="true"></i></div>
+				<div class="fr">
+					<input type="text" required name="home_town" placeholder="home town" class="textBox" required>
+				</div>
+				<div class="clr"></div>
+
+			</div>
+			
+			<div id="c">
+				<label>medicle certificate </label>
+				<input type="file" name="file">
+			</div>
+
+
+			
+			<div class="box" style="background: #2d3e3f">
+				<input type="submit" class="submit" name="submit" value="SUBMIT">
+			</div>
+			
+			</form>
+		</div>
+		
+	
+	<script src ="./main.js">
+		
+	</script>
+
+		
+</body>
+
+</html>
+
